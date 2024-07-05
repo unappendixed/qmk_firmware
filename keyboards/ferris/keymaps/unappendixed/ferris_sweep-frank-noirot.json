@@ -3,7 +3,7 @@
   "notes": "",
   "documentation": "\"This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\"\n",
   "keyboard": "ferris/sweep",
-  "keymap": "ferris_sweep_unappendixed",
+  "keymap": "ferris_sweep_ferris_sweep-frank_noirot",
   "layout": "LAYOUT_split_3x5_2",
   "layers": [
     [
@@ -75,7 +75,7 @@
       "KC_RSFT",
       "KC_TRNS",
       "TO(0)",
-      "TO(2)",
+      "TO(1)",
       "KC_TRNS"
     ],
     [
@@ -111,7 +111,7 @@
       "KC_WH_R",
       "KC_BTN1",
       "TO(0)",
-      "KC_TRNS",
+      "TO(3)",
       "KC_BTN2"
     ],
     [
@@ -169,7 +169,7 @@
       "KC_MINS",
       "KC_ENT",
       "KC_RCTL",
-      "KC_RSFT",
+      "KC_SPC",
       "KC_BSLS",
       "KC_TRNS",
       "KC_TRNS",
@@ -182,8 +182,8 @@
       "KC_LCBR",
       "KC_RCBR",
       "KC_TRNS",
-      "KC_TRNS",
-      "LSA(KC_NO)",
+      "MOD_RSFT",
+      "KC_RSHFT",
       "KC_NO"
     ],
     [
@@ -198,8 +198,8 @@
       "KC_TRNS",
       "KC_TRNS",
       "KC_EXLM",
-      "KC_SCLN",
-      "KC_SPC",
+      "KC_LPRN",
+      "KC_RPRN",
       "KC_TAB",
       "KC_GRV",
       "KC_TRNS",
@@ -217,11 +217,11 @@
       "KC_TRNS",
       "KC_TRNS",
       "KC_TRNS",
-      "KC_NO",
       "OSM(MOD_HYPR)",
+      "KC_NO",
       "KC_TRNS",
       "KC_TRNS"
     ]
   ],
-  "author": ""
+  "author": "unappendixed"
 }
